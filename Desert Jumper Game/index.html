@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Jumper | Premium Web Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="400"></canvas>
+        
+        <div class="hud">
+            <div class="hud-item" id="time-display">00:00</div>
+            <div class="hud-item lives-container" id="lives-display">
+                <span class="heart">❤️</span>
+                <span class="heart">❤️</span>
+                <span class="heart">❤️</span>
+            </div>
+        </div>
+
+        <div id="modal">
+            <h1 id="modal-title">DESERT JUMPER</h1>
+            <p id="modal-message">Pulse ESPACIO para saltar</p>
+            <button id="restart-btn">EMPEZAR</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
